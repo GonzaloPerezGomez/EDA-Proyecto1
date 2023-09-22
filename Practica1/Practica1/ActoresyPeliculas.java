@@ -1,14 +1,14 @@
 import java.util.*;
 
 public class ActoresyPeliculas {
-
+	
 	public static void main(String[] args) {
 		
 		int opcion;
-		static Scanner sc = new Scanner(System.in);
+		Scanner leer = new Scanner(System.in);
 		
 		do {
-			System.out.println("---ELIJA UNA FUNCIONALIDAD---")
+			System.out.println("---ELIJA UNA FUNCIONALIDAD---");
 			System.out.println("1.Cargar los datos desde los archivos");
 			System.out.println("2.Buscar un actor/actriz");
 			System.out.println("3.Insertar un nuevo actor/actriz");
@@ -19,7 +19,7 @@ public class ActoresyPeliculas {
 			System.out.println("8.Salir");
 
 			
-			opcion = sc.nextInt();
+			opcion = leer.nextInt();
 			
 			switch(opcion) {
 				case 1:
@@ -36,9 +36,9 @@ public class ActoresyPeliculas {
 					break;
 				case 7:
 					break;
-			}while(opcion != 8);
+			}
 			
-		}
+		}while(opcion != 8);
 
 	}
 
