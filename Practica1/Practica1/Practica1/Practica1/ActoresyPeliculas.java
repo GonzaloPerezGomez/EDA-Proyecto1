@@ -35,7 +35,7 @@ public class ActoresyPeliculas {
 				case 6:
 					break;
 				case 7:
-					break
+					break;
 				
 			}
 			
